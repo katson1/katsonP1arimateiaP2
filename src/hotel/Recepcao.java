@@ -40,8 +40,7 @@ public class Recepcao {
 		String retorno = "Estadias: ";
 		for (int i = 0; i < estadias.size(); i++){
 			retorno += "\n"+(estadias.get(i)).getNome()+" ("+(estadias.get(i)).getValor()
-					+"): "+((estadias.get(i)).getDias()).toString()+" dias com o preço de R$ "
-					+(estadias.get(i)).getValor()).toString();
+					+"): "+((estadias.get(i)).getDias()).toString()+" dias com o preço de R$ "+estadias.get(i).getValor().toString();
 		}
 	}
 	
